@@ -23,7 +23,7 @@ color: aliceblue;
     } 
 
 
-    li:nth-child(1){
+    li:nth-child(odd){
         background-color: dimgrey;
         
   }
