@@ -1,0 +1,62 @@
+/* My Awesome CSS! */
+
+body {
+    background-color: palegoldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 18px;
+}
+
+header, footer{
+    background-color: thistle;
+}
+
+     .site-title {
+color: aliceblue;
+    }
+
+    #my-image {
+        box-shadow: 0 0 2px 1px black;
+    }
+
+    li { 
+        list-style-type: square;
+    } 
+
+
+    li:nth-child(1){
+        background-color: dimgrey;
+        
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: baseline;
+    background-color: black;
+    font-family: sans-serif;
+  }
+  
+  .dropdown {
+    position: relative;
+    margin: 0;
+  }
+  
+  
+  .navbar a {
+    margin: 0;
+    padding: 15px;
+    color: white;
+    text-decoration: none
+  }
+  
+  .navbar a:hover {
+    background-color: red;
+  }
+
+  a:hover { border: 1px solid red; }
+
+a:hover { background-color: aliceblue; }
+
