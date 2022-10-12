@@ -5,23 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Assignment</title>
+    <link href="CSS/main.css" rel="stylesheet">
 
-<style>
-    body {
-        background-color: lavender;
-        width: 75%;
-    }
-</style>
 
 
 </head>
 <body>
-
-    <a href="notes.html">notes</a>
-    <h1> Matty Roberts <abbr title="Medical Doctor">MD.</abbr></h1>
+    
+    <nav class="navbar"></nav>
+    <div class="dropdown">
+    <a href="index.html">Home</a>
+    <a href="notes.html">Notes</a>
+        <div class="dropdown">
+          <button class="dropdown-button">
+            Dropdown &#9663;
+          </button>
+        </div>
+      </nav> 
+   
+  
+    <header>
+    <h1> Matty Roberts <abbr class="site-title" title="Medical Doctor">MD.</abbr></h1>
     <article>
+    </header>
+    
         <h2><em>About Me</em></h2>
+    
     </article>
+    
     <p> My name is Matthew Roberts, I go by Matt or Matty. I was born on the 8<sup>th</sup> of January, 2001 in Ottawa. I am new to essentially everything associated with web development. I spend the majority of my time focusing on music which is my primary passion in life. I enjoy playing guitar, bass and used to spend a lot of my time focusing on the trumpet. I initially attended the <em>University of Toronto</em> for music performance.</p>
 
         Outside of music one of my interests is graphic design and working out. I'm hoping that I can use the skills that I aquire in web development to incorporate into my other interests. Being able to create a website for someone in the music industry is a positive networking tool. Learning the language of code is something that excites me greatly; it is an important form of communication that can take you wherever you want to go.  
@@ -35,13 +46,16 @@
          </a>
 
         
-        <img src="https://d1fdloi71mui9q.cloudfront.net/t5ptPVe4SOLXyrXz3acA_57q5Z7G1KZd805Jt" alt="Picture of Me" width="377.5" height="377.5"> 
+        <img id="my-image" src="https://d1fdloi71mui9q.cloudfront.net/t5ptPVe4SOLXyrXz3acA_57q5Z7G1KZd805Jt" alt="Picture of Me" width="377.5" height="377.5"> 
 
 <h3>Hobbies</h3>
 <li>Music - Instrumental;(guitar, bass, trumpet); Production; Vocals.</li>
 <li>Exercise - Weightlifting, Calisthenics.</li>
     
+   <footer>
     <address>© Copyright, Matty Roberts - Algonquin College IMD</address>
+   </footer>
 
 </body>
+
 </html>
